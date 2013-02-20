@@ -1,13 +1,13 @@
 INSTALLATION INSTRUCTIONS
 =========================
 
-virtualenv /var/www/stravasocial
-cd /var/www/stravasocial
-source bin/activate
-mkdir stravatweet
-cd stravatweet
-easy_install https://github.com/packetslave/strava/tarball/master
-python setup.py develop
+    virtualenv /var/www/stravasocial
+    cd /var/www/stravasocial
+    source bin/activate
+    mkdir stravatweet
+    cd stravatweet
+    easy_install https://github.com/packetslave/strava/tarball/master
+    python setup.py develop
 
 MODIFICATIONS 
 =============
