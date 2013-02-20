@@ -101,12 +101,12 @@ def get_duration(moving_time):
 def getstats(rider):
     st = Athlete(rider)
     lastride = st.rides()[0]
-    if not last_tweeted_id(lastride.id):
+    if last_tweeted_id(lastride.id):
         return None
     else:
         return build_message(lastride, UNIT)
 
 tweet_message = getstats(RIDER)
 if tweet_message:
-    #tweet(tweet_message)
-    print tweet_message
+    tweet(tweet_message)
+    #print tweet_message
