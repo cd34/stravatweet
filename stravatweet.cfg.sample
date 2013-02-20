@@ -1,0 +1,12 @@
+[StravaTweet]
+rider = 1234
+zip = 1111
+consumer_key = 
+consumer_secret = 
+access_key = 
+access_secret = 
+
+hashtags = #bicycle, #cycling #bicycle, #cycling #bicycle #strava
+unit = statute
+#unit = metric
+workdir = /var/www/stravasocial/stravatweet/
